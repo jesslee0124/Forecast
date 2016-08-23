@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+  
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-7">
+            <h1 id="cityTemp"> &deg;</h1>
+            <h2>5-day forecast</h2>
+            <div class="forecast">
+              
+              <div id="day" class="day row">
+                <div class="weekday col-xs-4">
+                  <span class="glyphicon glyphicon-plus"></span>
+                  <p>today</p>
+                </div>
+                <div class="weather col-xs-3">
+                  <img id="dayImg0">
+                </div>
+                <div class="weather col-xs-1">
+                </div>
+                <div class="high col-xs-2">
+                  <p id="dayHigh0"></p>
+                </div>
+                <div class="low col-xs-2">
+                  <p id="dayLow0"></p>
+                </div>
+              </div>
+              <div class="hourly row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour0" class="hour"></p>
+                  <p><img id="todayHourImg0"></p>
+                  <p id="todayHourTemp0" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour1" class="hour"></p>
+                  <p><img id="todayHourImg1"></p>
+                  <p id="todayHourTemp1" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour2" class="hour"></p>
+                  <p><img id="todayHourImg2"></p>
+                  <p id="todayHourTemp2" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour3" class="hour"></p>
+                  <p><img id="todayHourImg3"></p>
+                  <p id="todayHourTemp3" class="temp"></p>
+                </div>
+              </div>
+              <div class="hourly row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour4" class="hour"></p>
+                  <p><img id="todayHourImg4"></p>
+                  <p id="todayHourTemp4" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour5" class="hour"></p>
+                  <p><img id="todayHourImg5"></p>
+                  <p id="todayHourTemp5" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour6" class="hour"></p>
+                  <p><img id="todayHourImg6"></p>
+                  <p id="todayHourTemp6" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour7" class="hour"></p>
+                  <p><img id="todayHourImg7"></p>
+                  <p id="todayHourTemp7" class="temp"></p>
+                </div>
+              </div>
+              <div class="hourly row">
+                <div class="col-xs-4">
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour8" class="hour"></p>
+                  <p><img id="todayHourImg8"></p>
+                  <p id="todayHourTemp8" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour9" class="hour"></p>
+                  <p><img id="todayHourImg9"></p>
+                  <p id="todayHourTemp9" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour10" class="hour"></p>
+                  <p><img id="todayHourImg10"></p>
+                  <p id="todayHourTemp10" class="temp"></p>
+                </div>
+                <div class="col-xs-2 todayHour">
+                  <p id="todayHour11" class="hour"></p>
+                  <p><img id="todayHourImg11"></p>
+                  <p id="todayHourTemp11" class="temp"></p>
+                </div>
+              </div>
+
+              <div class="day row">
+                <div class="weekday col-xs-4">
+                  <span class="glyphicon glyphicon-minus"></span>
+                  <p>tomorrow</p>
+                </div>
+                <div class="weather col-xs-4">
+                  <img id="dayImg1">
+                </div>
+                <div class="high col-xs-2">
+                  <p id="dayHigh1"></p>
+                </div>
+                <div class="low col-xs-2">
+                  <p id="dayLow1"></p>
+                </div>
+              </div>
+
+              <div class="day row">
+                <div class="weekday col-xs-4">
+                  <span class="glyphicon glyphicon-minus"></span>
+                  <p id="day2"></p>
+                </div>
+                <div class="weather col-xs-4">
+                  <img id="dayImg2">
+                </div>
+                <div class="high col-xs-2">
+                  <p id="dayHigh2"></p>
+                </div>
+                <div class="low col-xs-2">
+                  <p id="dayLow2"></p>
+                </div>
+              </div>
+      
+              <div class="day row">
+                <div class="weekday col-xs-4">
+                  <span class="glyphicon glyphicon-minus"></span>
+                  <p id="day3"></p>
+                </div>
+                <div class="weather col-xs-4">
+                  <img id="dayImg3">
+                </div>
+                <div class="high col-xs-2">
+                  <p id="dayHigh3"></p>
+                </div>
+                <div class="low col-xs-2">
+                  <p id="dayLow3"></p>
+                </div>
+              </div>
+
+              <div class="day row">
+                <div class="weekday col-xs-4">
+                  <span class="glyphicon glyphicon-minus"></span>
+                  <p id="day4"></p>
+                </div>
+                <div class="weather col-xs-4">
+                  <img id="dayImg4">
+                </div>
+                <div class="high col-xs-2">
+                  <p id="dayHigh4"></p>
+                </div>
+                <div class="low col-xs-2">
+                  <p id="dayLow4"></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
